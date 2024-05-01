@@ -1,3 +1,48 @@
+### Python Voice Assistant
+
+This Python script is a voice assistant program that utilizes various libraries and APIs to perform tasks based on voice commands. Below is a summary of its features, how to run it, and the requirements for this project.
+
+#### Features:
+
+1. **Voice Recognition and Response:**
+   - Uses `speech_recognition` and `pyttsx3` libraries for voice input and output.
+   - Greets the user based on the time of day and assists with tasks.
+
+2. **Voice Lock:**
+   - Implements a voice recognition-based lock system to ensure user security.
+
+3. **Web Scraping and Browsing:**
+   - Can open websites like YouTube, Google, Stack Overflow, and OpenAI using `webbrowser` library.
+   - Searches YouTube for videos based on user input using `youtubesearchpython` library.
+   - Fetches code snippets from Stack Overflow using `requests` and `BeautifulSoup` for web scraping.
+
+4. **Email Sending:**
+   - Allows the user to send emails using the `smtplib` library.
+
+#### How to Run:
+
+1. Install the required libraries:
+   ```
+   pip install pyttsx3 speech_recognition youtubesearchpython requests beautifulsoup4
+   ```
+
+2. Replace placeholders:
+   - Replace `'unlessuser99@@gmail.com'` and `'imdz holb rtjs yglv'` with your Gmail credentials in the `sendEmail` function.
+   - Replace `user = "Mustafa"` with your desired username.
+
+3. Run the script:
+   - Execute the script in a Python environment (`python filename.py`).
+   - Ensure your microphone is connected and accessible for voice commands.
+
+#### Requirements:
+
+- Python 3.x installed on your system.
+- Internet connectivity for web browsing and email sending functionalities.
+- Gmail account for sending emails (replace credentials in the script).
+- Microphone for voice input.
+
+Feel free to customize the script further and add more features based on your requirements. Happy coding!
+
 # 💫 About Me:
 
 🚀 As a dynamic Frontend Developer with a passion for crafting exceptional user experiences, I bring 4+ years of expertise to the table. Proficient in HTML, CSS, and JavaScript. <br><br>🛠️ My toolkit extends beyond frontend development, encompassing Python, Pandas, and a strong foundation in Data Analysis and Data Science. I thrive in collaborative environments, seamlessly integrating with designers and backend developers to bring innovative ideas to life.<br><br>🌐 From responsive design and performance optimization to cross-browser compatibility, I ensure the seamless execution of projects. My attention to detail and dedication to high-quality code have consistently contributed to the success of numerous ventures, driving business growth.<br><br>📈 Constantly evolving, I stay at the forefront of industry trends and best practices. Now, I am eager to leverage my diversified skill set in a forward-thinking company that values innovation. Let's connect and explore how I can elevate your team's capabilities and contribute to cutting-edge projects.
