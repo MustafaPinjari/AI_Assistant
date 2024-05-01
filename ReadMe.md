@@ -27,7 +27,7 @@ This Python script is a voice assistant program that utilizes various libraries 
    ```
 
 2. Replace placeholders:
-   - Replace `'unlessuser99@@gmail.com'` and `'imdz holb rtjs yglv'` with your Gmail credentials in the `sendEmail` function.
+   - Replace `'unlessuser99@@gmail.com'` and `'Your_Password'` with your Gmail credentials in the `sendEmail` function.
    - Replace `user = "Mustafa"` with your desired username.
 
 3. Run the script:
